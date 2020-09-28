@@ -19,16 +19,16 @@
  * Strings for filter_r
  *
  * @package    filter
- * @subpackage r
- * @copyright  2010 David Mudrak <david@moodle.com>
+ * @subpackage roodle
+ * @copyright  2020 Claros,Morales,Echeverria
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['embedimages'] = 'R Code';
+$string['embedimages'] = 'Roodle';
 $string['embedimages_desc'] = 'Replace r code with result.';
-$string['filtername'] = 'R Code';
+$string['filtername'] = 'Roodle';
 
 $string['temporal'] = 'Temporal directory';
 $string['temporal_desc'] = 'Folder used as temporal. R/W privilegies is required.';
