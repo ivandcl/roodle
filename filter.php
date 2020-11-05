@@ -6,7 +6,7 @@
 *  
 * @package    	filter_roodle  
 * @copyright  	2017 Barrera, Badel  
-*   			2020 Claros,Morales,Echeverria - Fixbugs and improve sessions persistent in linux environments  
+*   	        2020 Claros,Morales,Echeverria - Fixbugs and improve sessions persistent in linux environments  
 * @license    	http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later 
 */ 
 defined('MOODLE_INTERNAL') || die(); 
@@ -63,7 +63,6 @@ function filter_r_callback($expression) {
 		$showCode = true;
 	}
 	
-	//return '(1) '.$expression[0].' (2) '.$expression[1];
 	$expression = strip_tags($expression[1]);	
 	$expression = str_replace("<p>","",$expression);    
 	$expression = str_replace("</p>","; ",$expression);
